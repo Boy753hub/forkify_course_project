@@ -89,7 +89,7 @@ const controlBookmarks = function(){
   bookmarksView.render(model.state.bookmarks)
 }
 
-const console = function(){
+const consoleL = function(){
   console.log('hello world')
 }
 
@@ -129,6 +129,6 @@ const init = function(){
   searchView.addhandlersearchmethod(controlSearchResults)
   paginationvView.addhanlerClick(controlPagination)
   addRecipeView.addHandlerUpload(controlAddRecipe)
-  console()
+  consoleL()
 }
 init()
