@@ -89,7 +89,9 @@ const controlBookmarks = function(){
   bookmarksView.render(model.state.bookmarks)
 }
 
-
+const console = function(){
+  console.log('hello world')
+}
 
 const controlAddRecipe = async function(newRecipe){
   try {
@@ -127,5 +129,6 @@ const init = function(){
   searchView.addhandlersearchmethod(controlSearchResults)
   paginationvView.addhanlerClick(controlPagination)
   addRecipeView.addHandlerUpload(controlAddRecipe)
+  console()
 }
 init()
